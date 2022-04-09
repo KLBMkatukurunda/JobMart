@@ -1,0 +1,188 @@
+/*
+Template 2109 The Card
+http://www.tooplate.com/view/2109-the-card
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  color: #ffffff;
+  overflow-x: hidden;
+  background: #25332e;
+}
+
+a {
+  transition: all 0.2s;
+}
+
+.tm-text-blue {
+  color: #00ccfc;
+}
+
+.tm-main-container {
+  position: relative;
+  height: 100%;
+}
+
+.tm-top-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tm-navbar-menu {
+  display: block;
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  width: 120px;
+  margin-right: 90px;
+  text-align: center;
+}
+
+.tm-navbar-add1{
+  display: block;
+  color: black;
+  background: tomato;
+  padding: 10px 20px;
+  width: 200px;
+  height: 50px;
+  size: 30px;
+  text-align: center;
+  margin-top: 30px;
+ 
+  border-radius: 20px;
+  
+}
+.tm-navbar-add2{
+  display: block;
+  color: black;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-top: 30px;
+
+  border-radius: 20px;
+  background: tomato;
+  padding: 10px 20px;
+}
+
+.tm-navbar-menu:hover {
+  color: #950000;
+  text-decoration: none;
+}
+
+.tm-nav {
+  margin: 30px;
+  text-transform: uppercase;
+}
+
+.tm-nav-links {
+  list-style: none;
+}
+
+.tm-nav-link:link,
+.tm-nav-link:visited {
+  color: black;
+  background-color: white;
+  padding: 10px 40px;
+  display: block;
+  margin-bottom: 6px;
+  text-align: center;
+  
+}
+
+.tm-nav-item.active .tm-nav-link,
+.tm-nav-link:hover,
+.tm-nav-link:focus {
+  text-decoration: none;
+  color: #950000;
+}
+
+
+.tm-bg-dark {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.tm-site-header-box {
+  display: inline-block;
+  padding: 40px 80px 40px 40px;
+  margin: 40px 40px 80px;
+}
+
+.tm-site-title {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.tm-site-subtitle {
+  color: #cdffd0;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.tm-content {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.tm-section {
+  margin-right: 75px;
+  max-width: 100%;
+}
+
+.tm-section-title {
+  font-size: 3.4rem;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+.tm-textbox {
+  padding: 45px;
+  font-size: 1.1rem;
+  color: #c5c7c6;
+  line-height: 1.8;
+}
+
+
+.tm-section-0 {
+  margin-top: 70px;
+  max-width: 575px;
+}
+.choose{
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  align-items: center;
+}
+
+
+.tm-link:link,
+.tm-link:visited {
+  background-color: white;
+  padding: 15px 30px;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.tm-link:focus,
+.tm-link:hover {
+  text-decoration: none;
+  color: #950000;
+}
+
+
